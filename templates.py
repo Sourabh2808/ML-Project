@@ -16,9 +16,10 @@ list_of_files = [
     f"src/{project_name}/pipelines/__init__.py",
     f"src/{project_name}/pipelines/training_pipeline.py",
     f"src/{project_name}/pipelines/prdiction_pipeline.py",
-    f"src/{project_name}/utils/__init__.py",
+    #f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/exception.py",
     f"src/{project_name}/logger.py",
+    f"src/{project_name}/utils.py",
     "app.py",
     "dockerfile",
     "requirements.txt",
@@ -40,3 +41,15 @@ for filepath in list_of_files:
 
     else:
         logging.info(f"{filename} already exists")
+
+
+    #if you want create all these thigs automatically whatever showing in explorer use cookiecutter,
+   # it is a command line utility that creates projects from project templates. 
+   # It is a great way to create a new project with a predefined structure and files. 
+    #You can create a cookiecutter template for your project and 
+    #then use it to create new projects with the same structure and files.```
+    
+    #``steps to create a cookiecutter template:
+    #1. pip install cookiecutter
+    #2. https://github.com/audreyfeldroy/cookiecutter-pypackage - this is a template for python package, you can use it as a base template for your project.
+    #and then you can customize it according to your needs.````

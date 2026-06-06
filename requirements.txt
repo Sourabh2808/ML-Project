@@ -8,4 +8,7 @@ plotly
 nbformat
 apyori
 ipykernel
+python-dotenv
+mysql-connector-python
+pymysql
 #-e .
